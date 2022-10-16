@@ -18,7 +18,6 @@ function createNotification(message = null, type = null) {
   notif.classList.add(type ? type : getRandomType());
 
   notif.innerText = getRandomMessage();
-  notif.innerText = getRandomType();
 
   toasts.appendChild(notif);
 
